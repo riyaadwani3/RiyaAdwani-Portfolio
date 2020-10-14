@@ -1,0 +1,257 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #666666; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4d4d4d; 
+}
+
+.div {
+  position: sticky;
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  font-size: 25px;
+}
+
+a {
+  float:left;
+  color: white;
+  display: inline;
+  text-align: center;
+  padding: 14px 36px;
+  cursor: pointer;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+body
+{
+  background: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.divh
+{
+  color: white;
+  background-color: black;
+  padding-top: 0px;
+  width: 330px;
+  margin: 0;
+}
+
+h1 a{
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px white;
+}
+
+h1 a:link {
+  color: white;
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+h1 a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.container{
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 613px;
+  margin: 0px;
+}
+
+.h1{
+  text-align: center; 
+}
+a.middle
+{
+    position: relative;
+}
+
+a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a.middle:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+#bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.container2{
+  width: 100%;
+  height: 613px;
+  margin: 0px;
+  background-color: #595959;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+.container3{
+  width: 100%;
+  height: 613px;
+  margin: 0px;
+  background-color: #404040;
+}
+
+.container4{
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+  background-color: #1a1a1a;
+}
+
+.button {
+  width: 300px;
+  border: 2px solid gray;
+  border-radius: 50px;
+  padding: 15px;
+  color: white;
+  text-shadow: 5px 2px 5px black;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #8c8c8c;
+  opacity: 0.5;
+}
+
+tr,td{
+  padding: 0px;
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+}
+
+.footer{
+  text-align: center;
+  color: white;
+}
+
+.container5{
+  width: 100%;
+  height: 613px;
+  margin-right: 10px;
+  float: left;
+  background-color: white;
+}
+
+.pimg{
+  margin: 0px;
+}
+
+.project1 {
+  float: left;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 0px;
+  align: center;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  transition: transform .2s;
+}
+
+div.containerp {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+div.project1:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1);
+}
+
+.multicolortext {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
